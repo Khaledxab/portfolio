@@ -1,5 +1,6 @@
 import React from 'react'
-import './contact.css'
+import './Experience.css'
+
 const Experience = () => {
   return (
     <div>Experience</div>
