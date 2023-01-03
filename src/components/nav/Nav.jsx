@@ -6,6 +6,7 @@ import {BiBookAlt} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {RiContactsLine} from 'react-icons/ri'
 import {useState} from 'react'
+import {BiHelpCircle} from 'react-icons/bi'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')

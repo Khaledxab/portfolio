@@ -31,12 +31,7 @@ header {
     bottom: 3rem;
 }
 
-.header__socials::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background-color: var(--color-primary);
-}
+
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
@@ -48,6 +43,13 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
 }
 
 /* scroll down */

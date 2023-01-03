@@ -1,0 +1,28 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 3%;
+    gap: 15%;
+}
+
+.about_me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about_me-image img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(20deg);
+    height: 457px;
+    width: auto;
+    TRANSITION: 0.5s;
+}
+
+.about_me-image img:hover {
+    transform: rotate(0deg);
+}
+
